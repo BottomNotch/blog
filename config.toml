@@ -1,0 +1,26 @@
+baseurl = "bottomnotch.github.io" # Controls base URL
+languageCode = "en-US" # Controls site language
+title = "bottomnotch.github.io" # Homepage title and page title suffix
+paginate = 12 # Number of posts to show before paginating
+
+theme = "after-dark" # Set default theme
+
+enableRobotsTXT = true # Suggested, enable robots.txt file
+SectionPagesMenu = "main" # Enable menu system for lazy bloggers
+footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
+
+toc = true
+related_content_limit = 10
+
+[params]
+  description = "" # Suggested, controls default description meta
+  author = "Josiah Atwell" # Optional, controls author name display on posts
+  hide_author = false # Optional, set true to hide author name on posts
+  show_menu = false # Optional, set true to enable section menu
+  powered_by = true # Optional, set false to disable credits
+
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  identifier = "home"
+  url = "/"
